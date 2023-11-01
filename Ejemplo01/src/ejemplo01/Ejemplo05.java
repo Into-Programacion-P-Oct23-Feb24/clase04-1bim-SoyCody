@@ -28,5 +28,9 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+        /*
+        \t nos ayuda a separar 10 espacios una cadena
+        \n nos ayuda a hacer un salto de linea en los que queramos presentar en pantalla
+        */
     }
 }
