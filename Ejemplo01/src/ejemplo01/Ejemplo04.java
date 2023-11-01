@@ -11,10 +11,15 @@ package ejemplo01;
  */
 public class Ejemplo04 {
     public static void main(String[] args) {
+        /*
+        println vs print
+        println muestra los datos en pantalla o en cosola todo junto
+        Y print muestra los datos en cosaola con saltos de linea
+        */
         String nombreEstudiante = "René Rolando";
         String apellidoEstudiante = "Elizalde Solano";
         int nacimiento = 1983;
-        System.out.print(nombreEstudiante + " ");
+        System.out.println(nombreEstudiante + " ");
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
