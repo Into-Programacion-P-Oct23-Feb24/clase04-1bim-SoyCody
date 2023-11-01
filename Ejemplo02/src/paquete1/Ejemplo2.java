@@ -31,6 +31,7 @@ public class Ejemplo2 {
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
         entrada.nextLine(); // limpieza de buffer
+        //Nos permite hacer una limpieza para una nueva cadena
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
